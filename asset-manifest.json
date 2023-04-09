@@ -1,16 +1,17 @@
 {
   "files": {
-    "main.css": "/SeraphCountdownLafyComeback/static/css/main.073c9b0a.css",
-    "main.js": "/SeraphCountdownLafyComeback/static/js/main.a95338e0.js",
+    "main.css": "/SeraphCountdownLafyComeback/static/css/main.b07a434a.css",
+    "main.js": "/SeraphCountdownLafyComeback/static/js/main.63dc6426.js",
     "static/js/787.e6de2b92.chunk.js": "/SeraphCountdownLafyComeback/static/js/787.e6de2b92.chunk.js",
+    "static/media/lafu.png": "/SeraphCountdownLafyComeback/static/media/lafu.dd7438fb36f8d8cf7c1c.png",
     "static/media/logo.svg": "/SeraphCountdownLafyComeback/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/SeraphCountdownLafyComeback/index.html",
-    "main.073c9b0a.css.map": "/SeraphCountdownLafyComeback/static/css/main.073c9b0a.css.map",
-    "main.a95338e0.js.map": "/SeraphCountdownLafyComeback/static/js/main.a95338e0.js.map",
+    "main.b07a434a.css.map": "/SeraphCountdownLafyComeback/static/css/main.b07a434a.css.map",
+    "main.63dc6426.js.map": "/SeraphCountdownLafyComeback/static/js/main.63dc6426.js.map",
     "787.e6de2b92.chunk.js.map": "/SeraphCountdownLafyComeback/static/js/787.e6de2b92.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.073c9b0a.css",
-    "static/js/main.a95338e0.js"
+    "static/css/main.b07a434a.css",
+    "static/js/main.63dc6426.js"
   ]
 }
