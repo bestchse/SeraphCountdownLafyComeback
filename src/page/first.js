@@ -27,7 +27,6 @@ export class first extends Component {
             return (
                 <div style={{
                     flex: 1,
-                    fontSize: 10,
                     height: '80vh',
                     display: 'flex',
                     alignItems: 'center',
@@ -52,7 +51,7 @@ export class first extends Component {
         };
 
         return (
-            <div>
+            <div >
                 <Countdown date={Date.now() + time}
                     zeroPadTime={2}
                     zeroPadDays={2}

@@ -5,7 +5,7 @@ import First from './page/first'
 
 function App() {
   return (
-    <div className="App" style={{ userSelect: "none" }}>
+    <div className="App" style={{ userSelect: "none" }}  >
       <First />
     </div>
   );
