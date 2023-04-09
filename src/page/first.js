@@ -37,13 +37,15 @@ export class first extends Component {
                 }
                 }>
                     <ScaleText maxFontSize={100}>
-                        For U Seraph No.1
+                        <span>
+                            For U Seraph No.1
+                        </span>
                     </ScaleText>
                     <ScaleText >
-                        Day : {days}
+                        <span>Day : {days}</span>
                     </ScaleText>
                     <ScaleText >
-                        Time : {zeroPad(hours)}:{zeroPad(minutes)}:{zeroPad(seconds)}
+                        <span>Time : {zeroPad(hours)}:{zeroPad(minutes)}:{zeroPad(seconds)}</span>
                     </ScaleText>
                 </div >
             )
