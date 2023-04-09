@@ -36,7 +36,7 @@ export class first extends Component {
                     padding: 20
                 }
                 }>
-                    <ScaleText >
+                    <ScaleText maxFontSize={100}>
                         For U Seraph No.1
                     </ScaleText>
                     <ScaleText >
