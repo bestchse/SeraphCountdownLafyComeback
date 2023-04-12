@@ -3,6 +3,8 @@ import Countdown, { zeroPad } from 'react-countdown';
 import moment from 'moment'
 import ScaleText from "react-scale-text";
 
+import Message from './testfirebase'
+
 
 export class first extends Component {
 
@@ -16,30 +18,24 @@ export class first extends Component {
         }
     }
     render() {
-        let days = 0
         let time = 0
         if (this.state.DateEnd) {
             time = moment.duration(this.state.DateEnd.diff(this.state.DateNow));
-            days = time.asDays();
         }
 
         const renderer = ({ days, hours, minutes, seconds }) => {
             return (
                 <div style={{
                     flex: 1,
-                    height: '80vh',
+                    height: '100vh',
                     display: 'flex',
                     alignItems: 'center',
                     flexDirection: 'column',
                     justifyContent: 'center',
-                    padding: 20
+
                 }
                 }>
-                    <ScaleText maxFontSize={100}>
-                        <span>
-                            For U Seraph No.1
-                        </span>
-                    </ScaleText>
+                    <Message DateCountdown={days} DatetimePost={new Date()} />
                     <ScaleText >
                         <span>Day : {days}</span>
                     </ScaleText>
