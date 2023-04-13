@@ -51,7 +51,7 @@ export class getdoc extends Component {
 
 
         // console.log(result)
-        this.LoadingData()
+        // this.LoadingData()
         return (
             <div style={{ position: 'absolute', right: 20, top: 20, width: '40vh', height: '40vh', overflowY: 'scroll' }}>
                 {

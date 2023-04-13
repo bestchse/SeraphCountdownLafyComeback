@@ -5,7 +5,6 @@ import { addDoc, collection, serverTimestamp } from "firebase/firestore";
 
 import Getdoc from './getdoc'
 
-
 export class testfirebase extends Component {
 
   constructor(props) {
@@ -17,13 +16,20 @@ export class testfirebase extends Component {
         DateCountdown: props.DateCountdown,
         DatetimePost: serverTimestamp()
       },
-      Title: 'SendSomeMessage? Seraph?'
+      Title: 'SendSomeMessage? Seraph?',
+      re: false
     }
+  }
+
+  re() {
+    this.setState({ re: !this.state.re })
   }
 
   post() {
     if (this.state.PostData.InputName === '' || this.state.PostData.InputMessage === '') {
-      this.state.Title = 'ไม่เอาน่าใส่หน่อยเถอะนะ'
+      this.setState({
+        Title: 'ไม่เอาน่าใส่หน่อยเถอะนะ'
+      })
     } else {
       addDoc(collection(firestore, "All"), this.state.PostData)
       this.setState({
